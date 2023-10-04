@@ -13,11 +13,10 @@ public class TestaLivro {
 								2023,
 								"W. W. Norton & Company");
 		
-		Livro best3 = new Livro();
-		best3.setTitulo("8 Little Planets: A Solar System Book for Kids with Unique Planet Cutouts");
-		best3.setAutor("Chris Ferrie");
-		best3.setNomeEditora("Sourcebooks Explore");
-		best3.setAnoPublicacao(2018);
+		Livro best3 = new Livro("8 Little Planets: A Solar System Book for Kids with Unique Planet Cutouts",
+								"Chris Ferrie",
+								2018,
+								"Sourcebooks Explore");
 		
 		System.out.println(best1.toString() + "\n");
 		System.out.println(best2.toString() + "\n");
