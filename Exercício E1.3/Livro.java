@@ -5,6 +5,17 @@ public class Livro {
 	private int anoPublicacao;
 	private String nomeEditora;
 	
+	public Livro() {
+		
+	}
+	
+	public Livro(String titulo, String autor, int anoPublicacao, String nomeEditora) {
+		this.titulo = titulo;
+		this.autor = autor;
+		this.anoPublicacao = anoPublicacao;
+		this.nomeEditora = nomeEditora;
+	}
+	
 	public String getTitulo() {
 		return titulo;
 	}
